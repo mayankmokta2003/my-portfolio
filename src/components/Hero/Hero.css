@@ -1,0 +1,104 @@
+.luffy{
+    
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.text11{
+    font-size: 55px;
+    background:linear-gradient(267deg , #da7c25 0.36% , #b923e1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text22{
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+    color: #da7c25;
+}
+.text33{
+    position: relative;
+    bottom: 30px;
+    font-size: large;
+    color:#b923e1;
+}
+
+.hero-end{
+    display: flex;
+    gap:40px;
+    margin-top: 30px;
+}
+
+.end1{
+    
+    border-radius: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(267deg , #da7c25 0.36% , #b923e1 102.06%);
+    cursor: pointer;
+    transition: 0.6s;
+}
+.end1:hover{
+    border:2px solid white;
+    transform: scale(1.05);
+}
+
+.end2{
+    
+    border-radius: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid white;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.end2:hover{
+    border:2px solid purple;
+    transform: scale(1.05);
+}
+
+@media(max-width:768px){
+    
+    .hero-end{
+        gap:10px;
+    }
+    .end2 , .end1{
+
+        width: 130px;
+    }
+    .luffy{
+        height: 150px;
+        width: 150px;
+        margin-bottom: 15px;
+    }
+    .text11{
+        font-size: 30px;
+        
+    }
+    .text22{
+        font-size: 30px;
+        
+
+    }
+    .text33{
+        font-size: 15px;
+        margin-bottom: 10px;
+        /* position: relative;
+        bottom: 40px; */
+
+    }
+}
