@@ -25,9 +25,6 @@ export default function Contact(){
       };
 
 
-
-
-
     return(
         <div className="contact" id="contact">
             
@@ -55,8 +52,6 @@ export default function Contact(){
                         </div>
                     </a>
 
-
-
                     <a href="https://www.linkedin.com/in/mayank-mokta-b78327331/" className="git">
                     <div className="location-div">
                         <img src="./images/linkedin.png" className="mail-pic"/>
@@ -74,11 +69,8 @@ export default function Contact(){
                         <p className="my-mail-text">Shimla, HP</p>
                         </div>
                     
-                    
-
                     </div>
                     
-                
 
             </div>
 

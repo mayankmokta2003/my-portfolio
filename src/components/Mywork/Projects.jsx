@@ -7,7 +7,8 @@ export default  [
   {
     title: "project2",
     id: 2,
-    link:"./images/movieapp.png"
+    link:"./images/web3-ethgpt.png",
+    url: "web3-ethgpt.vercel.app"
   },
   {
     title: "project3",
