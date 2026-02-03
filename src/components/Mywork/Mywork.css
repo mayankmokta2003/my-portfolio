@@ -1,44 +1,103 @@
-.work{
-    margin-bottom: 50px;
-}
 
-.proj-img{
-    height: 250px;
-    width: 380px;
-    border-radius: 10px;
-    cursor: pointer;
-    
-}
-.proj-img:hover{
-    transform: scale(1.10);
-    transition: 0.4s;
-    border:4px solid #da7c25;
 
-}
-.mywork-heading{
+.work {
+    margin-bottom: 80px;
+  }
+  
+  .mywork-heading {
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 30px;
     color: #da7c25;
-}
-.mywork-projects{
+    font-size: 30px;
+  }
+  
+  .mywork-projects {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 60px;
+  }
+  
+
+  .project-card {
+    display: flex;
+    gap: 40px;
     align-items: center;
     justify-content: center;
-    gap:60px;
-    margin-top: 40px;
-}
+  }
 
-@media(max-width:768px){
+  .proj-img {
+    height: 300px;
+    width: 480px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.4s, border 0.4s;
+  }
+  
+  .proj-img:hover {
+    transform: scale(1.08);
+    border: 4px solid #da7c25;
+  }
+  
 
-    .proj-img{
-        height: 100px;
-        width: 150px;
-        
+  .project-content {
+    max-width: 450px;
+    color: #ffffff;
+  }
+  
+  .project-content h2 {
+    color: #da7c25;
+    margin-bottom: 10px;
+  }
+  
+  .project-content p {
+    opacity: 0.85;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+
+  .tech-stack {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .tech-stack span {
+    background: #1f1f1f;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid #333;
+  }
+  
+
+  .visit-btn {
+    display: inline-block;
+    color: #da7c25;
+    border: 1px solid #da7c25;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .visit-btn:hover {
+    background: #da7c25;
+    color: #000000;
+  }
+  
+
+  @media (max-width: 768px) {
+    .project-card {
+      flex-direction: column;
+      text-align: center;
     }
-    .mywork-heading > h1{
-        font-size: 40px;
+  
+    .proj-img {
+      width: 280px;
+      height: auto;
     }
-}
+  }
+  

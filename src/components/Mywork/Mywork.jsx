@@ -1,4 +1,5 @@
 
+
 import "./Mywork.css";
 import Projects from "./Projects";
 
@@ -10,32 +11,46 @@ export default function Mywork() {
       </div>
 
       <div className="mywork-projects">
-        {Projects.map((prev) => {
-          return (
-            <div key={prev.id} className="my-projects">
-              {prev.id === 1 ? (
-                <a
-                  href="https://web3-uniswap-v2.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={prev.link} className="proj-img" alt={prev.title} />
-                </a>
-              ) : prev.id === 2 ? (
-                <a
-                  href="https://web3-ethgpt.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={prev.link} className="proj-img" alt={prev.title} />
-                </a>
-              ) : (
-                <img src={prev.link} className="proj-img" alt={prev.title} />
-              )}
+        {Projects.map((project) => (
+          <div key={project.id} className="project-card">
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={project.image}
+                className="proj-img"
+                alt={project.title}
+              />
+            </a>
+
+            <div className="project-content">
+              <h2>{project.title}</h2>
+              <p>{project.description}</p>
+
+              <div className="tech-stack">
+                {project.tech.map((tech, i) => (
+                  <span key={i}>{tech}</span>
+                ))}
+              </div>
+
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="visit-btn"
+              >
+                Visit Project →
+              </a>
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
     </div>
   );
 }
+
+
+
+

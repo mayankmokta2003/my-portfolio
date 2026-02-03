@@ -1,35 +1,34 @@
-export default  [
-  {
-    title: "project1",
-    id: 1,
-    link:"./images/uniswapv2.png",
-    url: "web3-uniswap-v2.vercel.app/"
-  },
-  {
-    title: "project2",
-    id: 2,
-    link:"./images/web3-ethgpt.png",
-    url: "web3-ethgpt.vercel.app"
-  },
-  {
-    title: "project3",
-    id: 3,
-    link:"./images/soundcloud.png"
-  },
-  // {
-  //   title: "project4",
-  //   id: 4,
-  //   link:"./images/calender.png"
-  // },
-  // {
-  //   title: "project5",
-  //   id: 5,
-  //   link:"./images/crypto.png"
-  // },
-  // {
-  //   title: "project6",
-  //   id: 6,
-  //   link:"./images/last.png"
-  // },
 
-];
+export default [
+    {
+      id: 1,
+      title: "Uniswap V2 Clone",
+      description:
+        "A fully functional Uniswap V2 clone with swap, liquidity, pair creation and real-time reserves.",
+      tech: ["React", "Wagmi / Viem", "Solidity", "Foundry"],
+      image: "./images/uniswapv2.png",
+      url: "https://web3-uniswap-v2.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "ETHGPT",
+      description:
+        "AI-powered blockchain assistant that answers Ethereum-related queries using smart contracts.",
+      tech: ["React", "Solidity", "Chainlink", "OpenAI", "Hardhat"],
+      image: "./images/web3-ethgpt.png",
+      url: "https://web3-ethgpt.vercel.app",
+    },
+    {
+      id: 3,
+      title: "Account Abstraction Wallet",
+      description:
+        "Smart contract wallet using ERC-4337 with gasless transactions and session keys.",
+      tech: ["ERC-4337", "Solidity", "Bundler", "Paymaster", "Hardhat"],
+      image: "./images/AA.png",
+      url: "https://web-3-aa-wallet.vercel.app/",
+    },
+  ];
+  
+
+
+
