@@ -1,0 +1,107 @@
+.aboutme{
+    margin-top: 70px;
+   
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.top-text{
+    font-size: 60px;
+    color: #da7c25;
+}
+.mid{
+    display: flex;
+    margin: 50px 150px;
+    gap: 20px;
+}
+.mid-pic{
+    height: 450px;
+    width: 400px;
+}
+.skills{
+    margin-top: 60px;
+    
+}
+.skill1 , .skill2 , .skill3 , .skill4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.line1{
+    height: 7px;
+    width: 500px;
+    background:linear-gradient(267deg , #da7c25 0.36% , #b923e1 102.06%);
+    border-radius: 50px;
+    border:none;
+    
+}
+.line2{
+    height: 7px;
+    width: 600px;
+    background:linear-gradient(267deg , #da7c25 0.36% , #b923e1 102.06%);
+    border-radius: 50px;
+    border:none;
+    position :relative;
+    left:64px;
+
+}
+.line3{
+    height: 7px;
+    width: 500px;
+    background:linear-gradient(267deg , #da7c25 0.36% , #b923e1 102.06%);
+    border-radius: 50px;
+    border:none;
+    position :relative;
+    left:7px;
+}
+.line4{
+    height: 7px;
+    width: 450px;
+    background:linear-gradient(267deg , #da7c25 0.36% , #b923e1 102.06%);
+    border-radius: 50px;
+    border:none;
+    position :relative;
+    right:9px;
+}
+
+
+
+
+@media(max-width:768px){
+
+    .mid{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 20px;
+    }
+  .mid-pic{
+    height: 180px;
+    width: 170px;
+  }
+  .about-mid-text{
+    font-size:small;
+
+  }
+  .top-text{
+    font-size: 40px;
+  }
+  .aboutme{
+    margin-top: 20px;
+    
+  }
+  .skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  }

@@ -15,42 +15,41 @@ export default function About() {
         <div>
           <p className="about-mid-text">
             <p>
-              I am a blockchain-focused developer with a strong foundation in
-              Ethereum smart contract development and modern Web3 application
-              architecture. My primary expertise lies in building, testing, and
-              integrating smart contracts using industry-standard tools and
-              workflows.
+              Hi, I'm Mayank Mokta, an AI Engineer passionate about building
+              intelligent AI systems using Large Language Models (LLMs),
+              Generative AI, Retrieval-Augmented Generation (RAG), and Agentic
+              AI. I recently graduated with a Bachelor's degree in Computer
+              Science Engineering and have been focused on developing AI
+              applications.
             </p>
 
             <p>
-              I work extensively with Solidity, and I am comfortable developing
-              and testing contracts using both Foundry and Hardhat. I have
-              hands-on experience writing unit tests and fuzz tests with Forge,
-              and I follow security-first development practices, including
-              proper input validation, access control patterns, and common
-              vulnerability prevention.
+              Over the past year, I have built multiple end-to-end AI projects
+              involving LangGraph, LangChain, AI agents, tool calling, memory
+              systems, vector databases, embeddings, and FastAPI. Alongside AI development, I
+              continuously strengthen my foundations in Data Structures &
+              Algorithms, Python, Object-Oriented Programming, REST APIs, Git,
+              and system design fundamentals, believing that strong engineering
+              skills are just as important as understanding AI models.
             </p>
 
             <p>
-              On the frontend side, I build Web3-enabled user interfaces using
-              React, integrating smart contracts with libraries such as
-              ethers.js, wagmi, and viem.
+              I love exploring how modern AI systems work behind the scenes—from
+              transformer architectures and embeddings to retrieval pipelines,
+              multi-agent orchestration and deployments. I'm
+              always learning new technologies, improving my projects, and
+              staying updated with the rapidly evolving AI ecosystem.
             </p>
 
-            <p>
-              I have also built full-stack decentralized applications by
-              combining Web3 with the MongoDB, NodeJs, Express.js, React.js
-              (MERN), using blockchain libraries on the backend where required.
-              While my focus is Web3, I am comfortable working across the stack
-              to deliver complete, functional products.
-            </p>
+            <p></p>
           </p>
 
           <p className="about-mid-text">
-            I am actively deepening my knowledge in zero-knowledge proof
-            systems, rollup infrastructure, and smart contract security, and I
-            am seeking opportunities where I can contribute to production-grade
-            blockchain systems while continuing to grow as an engineer.
+            Currently, I'm looking for opportunities as an AI Engineer,
+            Generative AI Engineer, LLM Engineer, or Agentic AI Engineer, where
+            I can collaborate with talented teams, contribute to impactful
+            products, and continue growing as an engineer while building AI
+            solutions that create real value.
           </p>
 
           {/* <div className="skills">
