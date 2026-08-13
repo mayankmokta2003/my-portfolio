@@ -13,7 +13,7 @@ export default function Hero() {
       </div>
 
       <div className="text2">
-        <h1 className="text22">Full-Stack Web3 Developer</h1>
+        <h1 className="text22">AI Engineer | LLMs | Agentic AI | RAG</h1>
       </div>
       <p className="text33">"Make it work, make it right, make it fast."</p>
 
